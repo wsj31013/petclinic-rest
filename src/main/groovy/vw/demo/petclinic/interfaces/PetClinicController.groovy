@@ -16,8 +16,8 @@ class PetClinicController {
     @Value('${petclinic.name}')
     private String petClinicName
 
-    @GetMapping("/name")
+    @GetMapping("/developer")
     ResponseEntity getName(){
-        return ResponseEntity.ok(petClinicName)
+        return ResponseEntity.ok("cobain")
     }
 }
